@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'roboto', sans-serif;
+  line-height: 1.7;
+}
+
+li {
+  list-style: none;
+  color: rgb(58, 71, 96);  
+}
+
+li,
+h3 {
+  color: rgb(32, 53, 92);
+}
+
+
+.container {
+  /* max-width: 1200px; */
+  margin: auto;
+}
+
+ .main-nav h2 {
+  color: rgb(96, 111, 140);
+  margin: 1rem 3rem;
+}
+
+/*IMAGES */
+.images {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 0.8rem;
+  margin: 0 0.2rem 3rem  3rem;
+}
+
+.images img {
+  width: 280px;
+  height: 360px;
+}
+
+
+/* CONTENT */
+.CARD{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1.4rem;
+  margin: 0.8rem 0 3rem 3rem;
+  padding-bottom: 1rem;
+  padding-right: 0.5rem;
+}
+
+.CARD .card {
+  font-weight: bold;
+  font-size: 18px8;
+  padding-top: 1rem;
+  margin-left: 1rem;
+}
+
+.CARD .card:hover {
+  cursor: pointer;
+}
+
+
+.CARD .card h3 {
+  font-size: 22px;
+}
+
+/*SECTION*/
+.footer-section {
+  background: rgb(96, 111, 140);
+  color: #fff;
+   width: 100%; 
+  
+}
+
+.footer-section ul li {
+  color: #fff;
+}
+
+.first-section ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 2rem;
+  margin-left: 1rem;
+}
+
+.second-section ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-top: 1px #fff solid;
+  margin-left: 1rem;
+  padding:2rem;
+}
